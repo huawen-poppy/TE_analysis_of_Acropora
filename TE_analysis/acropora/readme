@@ -1,0 +1,8 @@
+first we need to 
+(1) de novo identify the TE for the acropora using the longrepmasker (https://github.com/BioinformaticsCSU/LongRepMarker)
+
+(2) used the predicted sequence as input to the repeatmasker to do the annotation (https://github.com/Dfam-consortium/RepeatMasker)
+
+(3) run kallisto to map the sc-seq data into TE reference 
+
+(4) downstream analysis of the TE expression
