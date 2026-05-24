@@ -9,7 +9,6 @@
 
 # in this step is to prepare the reference for the sequence mapping
 
-#Load the required module
 module load cellranger
 cd ./Acropora_sc_analysis/cellranger_analysis/step2_make_reference
 #convert the gff3 file to gtf file using the tool cufflink

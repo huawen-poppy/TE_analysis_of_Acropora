@@ -10,7 +10,6 @@
 
 #this job is to merge the raw data from lane1 and lane2 into one
 
-# if I do it manuelly, then I have to repeat the following command several times by changing the group name(S1,S2,S3,A1,A2,A3) and index name(I1,R1,R2)
 # for example:
 # cat ../AipSC/Lane1/version_01/M-19-4777_S1_SI-GA-A1_S1_L001_I1_001.fastq.gz ../AipSC/Lane2/version_01/M-19-4777_S1_SI-GA-A1_S1_L002_I1_001.fastq.gz > ./AipSC_analysis/cellranger_analysis/step0_merge_data/merged_S1_I1.fastq.gz
 
